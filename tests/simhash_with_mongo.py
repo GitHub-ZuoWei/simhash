@@ -77,4 +77,7 @@ class TestSimhashIndexWithMongo(TestCase):
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    mongo = TestSimhashIndexWithMongo()
+    mongo.setUp()
+    mongo.test_get_near_dup()

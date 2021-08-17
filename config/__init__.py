@@ -1,7 +1,6 @@
 import os
 from os.path import dirname
 
-
 mongodb_config = {
     'name': 'recruiting',
     'username': '',
@@ -13,7 +12,7 @@ mongodb_config = {
 simhash_mongodb_config = {
     'name': 'simhash',
     'username': '',
-    'host': '127.0.0.1',
+    'host': '192.168.12.199',
     'password': '',
     'port': 27017,
     'alias': 'simhash',
